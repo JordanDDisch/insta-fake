@@ -8,6 +8,8 @@ Normally I would use a full 100% only native UI library, but thought this would 
 
 I've also been helping support Tamagui by donating some of my personal time into fixing issues and providing feedback to the core team.
 
+Think of this as a humble promotion of the library XD
+
 You can read the below information, which is modified from the original to understand more about the structure of the app.
 
 The installation steps, run steps and test steps are below. 

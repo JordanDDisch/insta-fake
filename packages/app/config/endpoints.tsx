@@ -1,0 +1,3 @@
+export const flikrEndpoint = "https://api.flickr.com/services/rest/"
+export const flikrSearchEndpoint = (searchParams:string) => `${flikrEndpoint}${searchParams}`
+export const flikrSearchParams = (pageSize: number, searchText: string, currentPage:number) => `?method=flickr.photos.search&api_key=11c40ef31e4961acf4f98c8ff4e945d7&format=json&nojsoncallback=1&per_page=${pageSize}&text=${searchText}&page=${currentPage}`

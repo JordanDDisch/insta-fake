@@ -1,4 +1,4 @@
-import { HomeScreen } from 'app/features/home/screen'
+import { Gallery } from 'app/pages/gallery'
 import { Stack } from 'expo-router'
 
 export default function Screen() {
@@ -9,7 +9,7 @@ export default function Screen() {
           title: 'Home',
         }}
       />
-      <HomeScreen />
+      <Gallery />
     </>
   )
 }
